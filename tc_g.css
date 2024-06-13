@@ -6,12 +6,13 @@ body{
 .container{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5.5rem 0.6fr 2fr auto;
+    grid-template-rows: 5.5rem 0.6fr 2fr 10rem;
     grid-template-areas: 
     "navbar"
     "body1"
     "body2"
     "footer";
+
     height: 100vh;
 }
 
@@ -28,7 +29,7 @@ main{
 aside{
     grid-area: body2;
     padding: 2rem;
-    background-color: rgb(59, 133, 19);
+    
 }
 footer{
     grid-area: footer;

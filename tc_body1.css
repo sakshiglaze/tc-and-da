@@ -3,6 +3,8 @@
     grid-template-columns: 6.5rem 1.5fr 1.8fr;
     padding: 0;
     margin:0;
+    border-bottom:solid #272727 0.5px;
+
 }
 .body1_left{
     border-right:solid #272727 0.5px;

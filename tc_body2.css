@@ -1,0 +1,52 @@
+.body2{
+    display: grid;
+    grid-template-columns: 1fr 6.5rem;
+    padding: 0;
+    margin:0;
+}
+.body2_left{
+    display: grid;
+    grid-template-rows: 8.3rem 1.5fr 1.5fr 1.5fr 1.5fr 11.5rem;
+}
+.b2l1{
+    border-bottom:solid #272727 0.5px;
+    position: relative;
+    
+
+}
+.text3{
+    right:2rem;
+    top:2.5rem;
+    position: absolute;
+}
+.text3 p{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.b2l2, .b2l3 ,.b2l4 ,.b2l5{
+    border-bottom:solid #272727 0.5px;
+    display: grid;
+    grid-template-columns: 0.38fr 0.62fr;
+
+
+}
+.b2l2d1, .b2l3d1 , .b2l4d1 , .b2l5d1{
+    border-right:solid #272727 0.5px;
+
+}
+.b2l2d2t, .b2l3d2t ,.b2l4d2t, .b2l5d2t{
+    margin-top: 5.31rem;
+    margin-left: 3.31rem;
+    margin-right: 3.25rem;
+}
+.b2l2d2t p, .b2l3d2t p, .b2l4d2t p, .b2l5d2t p{
+    font-family: Oxygen;
+    font-weight: 400;
+    font-size: min(1rem);
+    line-height: 1.26rem;
+}
+
+.body2_right{
+    border-left:solid #272727 0.5px;
+
+}
