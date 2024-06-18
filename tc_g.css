@@ -34,5 +34,5 @@ aside{
 footer{
     grid-area: footer;
     padding: 10rem;
-    background-color: gold;
+    /* background-color: gold; */
 }
