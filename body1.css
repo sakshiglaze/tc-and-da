@@ -82,13 +82,16 @@
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    transition:  2s ease-in-out;
+    /* transition:  13s ease-in-out; */
     background-size: cover;
+    overflow: hidden;
+
 }
 
 .body1_img{
     height:100%;
     width: 100%;
+    transition: 0.5s all ease-in-out;
 }
 @media  (max-width: 1000px) {
     .body1{
@@ -97,7 +100,8 @@
     
 }
 .body1_right:hover .body1_img{
-    transform: scale(1.2);
+    transform : scale(1.2);
+
 }
 /* @media  (min-width: 1400px){
     .text_1{
